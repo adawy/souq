@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>souq</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/en.css"> -->
+</head>
+
+<body>
+    <!-- loader -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- backToTop -->
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+    <!-- end backToTop -->
+    <div class="search-over justify-content-center"></div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- top-header -->
+        <div class="top-header ">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <ul class="head-offer d-flex">
+                    <li>
+                        <i class="fas fa-truck"></i>
+                        <span>
+                            الشحن مجاني
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-sync"></i>
+                        <span>
+                            إرجاع مجاني بكل سهولة
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>
+                            الدفع عند الاستلام
+                        </span>
+                    </li>
+                </ul>
+                <ul class="lang d-flex align-items-center">
+                    <li>
+                        <a href="sign-up.html">انشاء حساب</a>
+                    </li>
+                    <li>
+                        <a href="#">صفقة اليوم</a>
+                    </li>
+                    <li>
+                        <a href="#">خدمة العملاء</a>
+                    </li>
+                    <li>
+                        <a href="#">تتبع مشترياتك</a>
+                    </li>
+                    <li>
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/flag2.jpg" alt="egypt">
+                            </a>
+                            <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label>شحن الى</label>
+                                        <select name="" id="" class="form-control">
+                                            <option value="1">العراق</option>
+                                            <option value="1">مصر</option>
+                                            <option value="1">الامارات</option>
+                                        </select>
+                                    </div>
+                                    <label for="">اللغة</label>
+                                    <div class="form-group">
+                                        <input type="radio" id="en" name="radio">
+                                        <label class="bold-none" for="en">English</label>
+                                        <input type="radio" id="ar" name="radio">
+                                        <label class="bold-none" for="ar">عربي</label>
+                                    </div>
+                                    <button class="btn btn-primary">حفظ ومتابعة</button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end top-header -->
+        <div class="container-fluid">
+            <!-- logo-search -->
+            <div class="logo-search d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <i class="fas fa-bars"></i> <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <form action="cat-search.html">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="أبحث عن ما تريد من هنا ....">
+                        <button type="submit" class="search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="login-cart d-flex align-items-center">
+                    <li class="sign-up-drop">
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>
+                                    تسجيل الدخول أو الاشتراك
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <div class="sgin-in">
+                                    <p class="blue">انضم الى بيتي</p>
+                                    <a class="dropdown-item" href="login.html">
+                                        تسجيل الدخول
+                                    </a>
+                                </div>
+                                <div class="sgin-up">
+                                    <p class="gray">ليس لديك حساب؟ </p>
+                                    <a class="dropdown-item blue" href="sign-up.html">
+                                        اشتراك
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-search"></i>
+                    </li>
+                    <li>
+                        <a href="cart.html">
+                            <span>عربة التسويق</span>
+                            <i class="fas fa-shopping-cart cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end logo-search -->
+        </div>
+        <!-- nav -->
+        <nav>
+            <ul class="exo-menu">
+                <li><a class="active" href="cats.html">كل الفئات</a></li>
+                <li class="mega-drop-down">
+                    <a href="cats.html">الإلكترونيات</a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h4 class="mega-title">فئات المنتجات</h4>
+                                    <ul class="links">
+                                        <li><a href="cat-search.html">تلفزيونات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                                        <li><a href="cat-search.html">كاميرات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الصوت</a></li>
+                                        <li><a href="cat-search.html">مستلزمات الكمبيوتر</a></li>
+                                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="mega-title">أفضل الماركات</h4>
+                                    <ul class="stander">
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description d-flex">
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mega-drop-down">
+                    <a href="cats.html">الإلكترونيات</a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h4 class="mega-title">فئات المنتجات</h4>
+                                    <ul class="links">
+                                        <li><a href="cat-search.html">تلفزيونات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                                        <li><a href="cat-search.html">كاميرات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الصوت</a></li>
+                                        <li><a href="cat-search.html">مستلزمات الكمبيوتر</a></li>
+                                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="mega-title">أفضل الماركات</h4>
+                                    <ul class="stander">
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description d-flex">
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+        <!-- mobile-nav -->
+        <div class="mobile-nav">
+            <div class="bg-white m-b-10">
+                <div class="mobile-title">
+                    <div class="logo d-flex  align-items-center">
+                        <i class="fas fa-times"></i><a href="index.html">
+                            <img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <ul class="mobile-menu d-flex justify-content-around align-items-center">
+                    <li>
+                        <a href="index.html">
+                            <i class="far fa-home"></i>
+                            <span>الرئيسية</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.html">
+                            <i class="far fa-user"></i>
+                            <span>تسجيل الدخول</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sign-up.html">
+                            <i class="far fa-user"></i>
+                            <span>أشتراك</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-links bg-white m-b-10">
+                <span>كل الفئات</span>
+                <ul>
+                    <li>
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>الالكترونيات</span>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <ul>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end mobile-nav -->
+    </header>
+    <!-- end header -->
+    <!-- warper -->
+    <div class="warper">
+        <div class="user-content">
+            <div class="container">
+                <div class="user-header">
+                    <div class="edit">
+                        <a data-toggle="tab" href="#account-details">
+                            <i class="far fa-edit"></i>
+                        </a>
+                    </div>
+                    <a href="index.html" class="log-out">
+                        <i class="fas fa-sign-out-alt"></i>
+                        تسجيل خروج
+                    </a>
+                    <div class="info text-center">
+                        <h5>الحساب الشخصي</h5>
+                        <p>يمكنك اضافة المعلومات الشخصية وتعديلها</p>
+                    </div>
+                    <div class="user-detail">
+                        <div class="user-img">
+                            <img src="images/profile-shape.png" alt="">
+                            <img src="images/user.png" alt="">
+                        </div>
+                        <h6>
+                            أسم المستخدم
+                        </h6>
+                    </div>
+                    <img src="images/user-bg.png" class="user-bg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <!-- Nav tabs -->
+                        <ul class="nav flex-column dashboard-list" role="tablist">
+                            <li><a data-toggle="tab" href="#dashboard" class="active">تفاصيل الحساب</a></li>
+                            <li><a data-toggle="tab" href="#orders" >الفواتير السابقة</a></li>
+                            <li><a href="fav.html">المفضلة</a></li>
+                            <li><a data-toggle="tab" href="#address">العناوين</a></li>
+                            <li><a data-toggle="tab" href="#account-details">تعديل الحساب</a></li>
+                            <li><a href="sign-in.html">تسجيل خروج</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-10">
+                        <!-- Tab panes -->
+                        <div class="tab-content dashboard-content mt-all-40">
+                            <div id="dashboard" class="tab-pane active show">
+                                <h3>لحوحة التحكم </h3>
+                                <p>من لوحة تحكم حسابك يمكنك التحقق & وعرض الطلبات يسهولة والتحكم في الشحن وعنوانك و تعديل بياناتك وكلمات المرور
+
+                                </p>
+                            </div>
+                            <div id="orders" class="tab-pane fade">
+                                <h5>الفواتير السابقة</h5>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>الطلب</th>
+                                                <th>التاريخ</th>
+                                                <th>الأجمالى</th>
+                                                <th>عرض</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>مايو 10, 2018</td>
+                                                <td>25.00 ل 1 العنصر الواحد </td>
+                                                <td>
+                                                    <a class="view" href="cart-before.html">عرض</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>مايو 10, 2018</td>
+                                                <td>25.00 ل 1 العنصر الواحد </td>
+                                                <td>
+                                                    <a class="view" href="cart-before.html">عرض</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div id="address" class="tab-pane">
+                                <p>العنوان التالي يصبح عنوان افتراضي حين شحن اى منتج</p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6">
+                                            <div class="info-box">
+                                                <div class="info-head">تفاصيل العنوان</div>
+                                                <div class="info-body">
+                                                    <p>الصندوق الاسود</p>
+                                                    <p> الرياض </p>
+                                                    <p>
+                                                        السعوديه
+                                                    </p>
+                                                    <p> <label> <i class="fas fa-phone-square yellow"></i> </label> +1
+                                                        (899) 836-4654 </p>
+                                                </div>
+                                                <div class="info-footer">
+                                                    <a href="#" class="view" data-toggle="modal"
+                                                        data-target="#edit-address"> تغيير </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a href="#" class="add-addressbtn" data-toggle="modal"
+                                            data-target="#add-address">
+                                            <i class="fas fa-map-marked-alt"></i>
+                                            اضافة عنوان
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="account-details" class="tab-pane fade signin-page">
+                                <h3>بيانات الحساب </h3>
+                                <div class="register-form login-form clearfix">
+                                    <form action="" class="visa-form w-100">
+                                        <div class="form-group border-none">
+                                            <div class="img-block">
+                                                <div class="upload-img">
+                                                    <div class="upload-icon">
+                                                        <i class="fas fa-camera-retro"></i>
+                                                    </div>
+                                                    <input type="file" multiple="" id="gallery-photo-add"
+                                                        name="images[]">
+                                                </div>
+                                                <div class="gallery">
+                                                    <div class="images">
+                                                        <img src="images/user.png" alt="">
+                                                        <input name="images[]" type="hidden">
+                                                        <button class="close-img">
+                                                            <i class="fa fa-times-circle"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="fuser">
+                                            <label for="fuser">الاسم الاول</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="luser">
+                                            <label for="luser">الاسم الأخير</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" id="mob">
+                                            <label for="mob">رقم الجوال</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="store-name">
+                                            <label for="store-name">اسم المتجر</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="email">
+                                            <label for="email">الأيميل</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="pass">
+                                            <label for="pass">كلمة المرور الحالية</label>
+                                            <i class="far fa-eye showpass"></i>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="cpass">
+                                            <label for="cpass"> كلمة المرور الجديدة</label>
+                                            <i class="far fa-eye showpass"></i>
+                                        </div>
+                                        <button class="btn btn-primary">
+                                            حفظ
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end warper -->
+    <!-- top-footer -->
+    <section class="top-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <h5>احنا دايما موجودين في خدمتك</h5>
+                        <span>تواصل معانا عبر:</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="mailto:help.myhouse.com">
+                            <div class="icon">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>مركز المساعدة</span>
+                                <span>help.myhouse.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="mailto:help.myhouse.com">
+                            <div class="icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>مركز الدعم</span>
+                                <span>help.myhouse.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="tel:123456789">
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>الدعم ع التلفون</span>
+                                <span>123456789</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end top-footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="footer d-flex justify-content-between">
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-app d-flex justify-content-around align-items-center">
+                <div class="app">
+                    <span>حمل تطبيق بيتي الآن</span>
+                    <div class="download d-flex">
+                        <div class="android">
+                            <a href="#">
+                                <img src="images/android.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="apple">
+                            <a href="#">
+                                <img src="images/appstore.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="socail">
+                    <span>تواصل معانا</span>
+                    <ul class="d-flex">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- bottom-footer -->
+    <div class="bottom-footer d-flex justify-content-between align-items-center">
+        <div class="copy-right">
+            <span>©2019 لشركة دقة الانجاز للتسويق الألكتروني. جميع الحقوق محفوظة.</span>
+        </div>
+        <ul class="d-flex">
+            <li><img src="images/mastercard.png" alt=""></li>
+            <li><img src="images/mastercard.png" alt=""></li>
+            <li><img src="images/mastercard.png" alt=""></li>
+        </ul>
+        <div class="footer-menu">
+            <ul class="d-flex">
+                <li><a href="#">الوظائف</a></li>
+                <li><a href="#">سياسة الضمان</a></li>
+                <li><a href="#">البيع معانا</a></li>
+                <li><a href="#">شروط الاستخدام</a></li>
+                <li><a href="#">شروط البيع</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end bottom-footer -->
+    <!-- fixed-footer -->
+    <div class="fixed-footer">
+        <ul>
+            <li>
+                <a href="index.html" class="active">
+                    <i class="fa fa-home"></i>
+                    <span>الرئيسية</span>
+                </a>
+            </li>
+            <li>
+                <a href="fav.html">
+                    <i class="fa fa-heart"></i>
+                    <span>المفضلة</span>
+                </a>
+            </li>
+            <li>
+                <a href="account.html">
+                    <i class="fa fa-user"></i>
+                    <span>حسابي</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/gb.png">
+                    <span>English</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- end fixed-footer -->
+    <!-- add-address -->
+    <div class="modal fade edit-address" id="add-address" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">أضافة عنوان جديد</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="visa-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="street">
+                            <label for="street">الشارع الاول</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="street1">
+                            <label for="street1">الشارع الثاني</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="city">
+                            <label for="city">المدينة</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="cov">
+                            <label for="cov">المحافظة</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="cov">
+                            <label for="cov">الرمز البريد/ZIP</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="mob" v="">
+                            <label for="mob">رقم الجوال</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="email">
+                            <label for="email">الايميل</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="full-address">
+                            <label for="full-address">العنوان بالكامل</label>
+                        </div>
+                        <button class="btn btn-primary">
+                            اضافة
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- edit-address -->
+    <div class="modal fade edit-address" id="edit-address" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">أضافة عنوان جديد</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="visa-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="street">
+                            <label for="street">الشارع الاول</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="street1">
+                            <label for="street1">الشارع الثاني</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="city">
+                            <label for="city">المدينة</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="cov">
+                            <label for="cov">المحافظة</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="cov">
+                            <label for="cov">الرمز البريد/ZIP</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="mob" v="">
+                            <label for="mob">رقم الجوال</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="email">
+                            <label for="email">الايميل</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="full-address">
+                            <label for="full-address">العنوان بالكامل</label>
+                        </div>
+                        <button class="btn btn-primary">
+                            حفظ
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

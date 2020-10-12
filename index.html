@@ -1,0 +1,2580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>souq</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- loader -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- backToTop -->
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+    <!-- end backToTop -->
+    <div class="search-over justify-content-center"></div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- top-header -->
+        <div class="top-header ">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <ul class="head-offer d-flex">
+                    <li>
+                        <i class="fas fa-truck"></i>
+                        <span>
+                            الشحن مجاني
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-sync"></i>
+                        <span>
+                            إرجاع مجاني بكل سهولة
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>
+                            الدفع عند الاستلام
+                        </span>
+                    </li>
+                </ul>
+                <ul class="lang d-flex align-items-center">
+                    <li>
+                        <a href="sign-up.html">انشاء حساب</a>
+                    </li>
+                    <li>
+                        <a href="#">صفقة اليوم</a>
+                    </li>
+                    <li>
+                        <a href="#">خدمة العملاء</a>
+                    </li>
+                    <li>
+                        <a href="#">تتبع مشترياتك</a>
+                    </li>
+                    <li>
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/flag2.jpg" alt="egypt">
+                            </a>
+                            <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label>شحن الى</label>
+                                        <select name="" id="" class="form-control">
+                                            <option value="1">العراق</option>
+                                            <option value="1">مصر</option>
+                                            <option value="1">الامارات</option>
+                                        </select>
+                                    </div>
+                                    <label for="">اللغة</label>
+                                    <div class="form-group">
+                                        <input type="radio" id="en" name="radio">
+                                        <label class="bold-none" for="en">English</label>
+                                        <input type="radio" id="ar" name="radio">
+                                        <label class="bold-none" for="ar">عربي</label>
+                                    </div>
+                                    <button class="btn btn-primary">حفظ ومتابعة</button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end top-header -->
+        <div class="container-fluid">
+            <!-- logo-search -->
+            <div class="logo-search d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <i class="fas fa-bars"></i> <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <form action="cat-search.html">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="أبحث عن ما تريد من هنا ....">
+                        <button type="submit" class="search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="login-cart d-flex align-items-center">
+                    <li class="sign-up-drop">
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>
+                                    تسجيل الدخول أو الاشتراك
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <div class="sgin-in">
+                                    <p class="blue">انضم الى بيتي</p>
+                                    <a class="dropdown-item" href="login.html">
+                                        تسجيل الدخول
+                                    </a>
+                                </div>
+                                <div class="sgin-up">
+                                    <p class="gray">ليس لديك حساب؟ </p>
+                                    <a class="dropdown-item blue" href="sign-up.html">
+                                        اشتراك
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-search"></i>
+                    </li>
+                    <li>
+                        <a href="cart.html" class="shopping-cart">
+                            <span>عربة التسويق</span>
+                            <i class="fas fa-shopping-cart cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end logo-search -->
+        </div>
+        <!-- nav -->
+        <nav>
+            <ul class="exo-menu">
+                <li><a class="active" href="cats.html">كل الفئات</a></li>
+                <li class="mega-drop-down">
+                    <a href="cats.html">الإلكترونيات</a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h4 class="mega-title">فئات المنتجات</h4>
+                                    <ul class="links">
+                                        <li><a href="cat-search.html">تلفزيونات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                                        <li><a href="cat-search.html">كاميرات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الصوت</a></li>
+                                        <li><a href="cat-search.html">مستلزمات الكمبيوتر</a></li>
+                                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="mega-title">أفضل الماركات</h4>
+                                    <ul class="stander">
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description d-flex">
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mega-drop-down">
+                    <a href="cats.html">الإلكترونيات</a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h4 class="mega-title">فئات المنتجات</h4>
+                                    <ul class="links">
+                                        <li><a href="cat-search.html">تلفزيونات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                                        <li><a href="cat-search.html">كاميرات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الصوت</a></li>
+                                        <li><a href="cat-search.html">مستلزمات الكمبيوتر</a></li>
+                                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="mega-title">أفضل الماركات</h4>
+                                    <ul class="stander">
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description d-flex">
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+        <!-- mobile-nav -->
+        <div class="mobile-nav">
+            <div class="bg-white m-b-10">
+                <div class="mobile-title">
+                    <div class="logo d-flex  align-items-center">
+                        <i class="fas fa-times"></i><a href="index.html">
+                            <img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <ul class="mobile-menu d-flex justify-content-around align-items-center">
+                    <li>
+                        <a href="index.html">
+                            <i class="far fa-home"></i>
+                            <span>الرئيسية</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.html">
+                            <i class="far fa-user"></i>
+                            <span>تسجيل الدخول</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sign-up.html">
+                            <i class="far fa-user"></i>
+                            <span>أشتراك</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-links bg-white m-b-10">
+                <span>كل الفئات</span>
+                <ul>
+                    <li>
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>الالكترونيات</span>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <ul>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end mobile-nav -->
+    </header>
+    <!-- end header -->
+    <!-- warper -->
+    <div class="warper">
+        <!-- slider -->
+        <section class="slider">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/slider.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/slider.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/slider.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- end slider -->
+        <!-- advs -->
+        <section class="advs">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="img-adv">
+                            <a href="#">
+                                <img class="img-fluid" src="images/ad-1.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="img-adv">
+                            <a href="#">
+                                <img class="img-fluid" src="images/ad-1.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="img-adv">
+                            <a href="#">
+                                <img class="img-fluid" src="images/ad-1.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end advs -->
+        <!-- offer -->
+        <section class="offers">
+            <div class="container-fluid">
+                <div class="pro-title d-flex justify-content-between align-items-center">
+                    <h5>
+                        <i class="fas fa-tags yellow"></i>
+                        عروضنا
+                    </h5>
+                    <a href="#" class="shop-now">
+                        تسوق الآن
+                    </a>
+                </div>
+                <div class="products-container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (2).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/laptop.jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (3).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (4).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (5).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (6).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end offer -->
+        <!-- best-sale -->
+        <section class="best-sale">
+            <div class="container-fluid">
+                <div class="pro-title d-flex justify-content-between align-items-center">
+                    <h5>
+                        <i class="fas fa-dollar-sign yellow"></i>
+                        الأكثر مبيعا
+                    </h5>
+                    <a href="#" class="shop-now">
+                        تسوق الآن
+                    </a>
+                </div>
+                <div class="products-container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (2).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/laptop.jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (3).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (4).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (5).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (6).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end best-sale -->
+        <!-- best-view -->
+        <section class="best-view">
+            <div class="container-fluid">
+                <div class="pro-title d-flex justify-content-between align-items-center">
+                    <h5>
+                        <i class="far fa-eye yellow"></i>
+                        الأكثر مشاهدة
+                    </h5>
+                    <a href="#" class="shop-now">
+                        تسوق الآن
+                    </a>
+                </div>
+                <div class="products-container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (2).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/laptop.jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (3).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (4).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (5).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                            <div class="product-item">
+                                <div class="pro-img">
+                                    <img src="images/item1 (6).jpg" alt="">
+                                    <form action="">
+                                        <label for="fav" class="fav-checkbox">
+                                            <input type="checkbox" class="fav-in" />
+                                            <i class="fas fa-heart fav"></i>
+                                        </label>
+                                    </form>
+                                    <div class="overlay-details">
+                                        <a href="" data-toggle="modal" data-target="#product-details">
+                                            <i class="far fa-eye"></i>
+                                            تفاصيل المنتج
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pro-info">
+                                    <a href="product.html">
+                                        <h4>مجموعه حقائب </h4>
+                                    </a>
+                                    <p>
+                                        شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic - اسود
+
+                                    </p>
+                                    <div class="price">
+                                        <span>1000 IQD</span>
+                                    </div>
+                                    <a href="#" class="add-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </div>
+                                <span class="offer-span">
+                                    عرض خاص
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end best-view -->
+        <!-- cats-tabs -->
+        <section class="cats-tabs">
+            <div class="container-fluid">
+                <h5 class="text-center all-cats">الفئات</h5>
+                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab"
+                            aria-controls="one" aria-selected="true">
+                            <div class="icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <span>الإلكترونيات</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two"
+                            aria-selected="false">
+                            <div class="icon">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                            <span>الأزياء</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab"
+                            aria-controls="three" aria-selected="false">
+                            <div class="icon">
+                                <i class="fas fa-mobile"></i>
+                            </div>
+                            <span>الموبايلات</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab"
+                            aria-controls="three" aria-selected="false">
+                            <div class="icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <span>المنزل</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="four-tab" data-toggle="tab" href="#four" role="tab" aria-controls="four"
+                            aria-selected="false">
+                            <div class="icon">
+                                <i class="fas fa-spray-can"></i>
+                            </div>
+                            <span>الصحة والجمال</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                        <div class="products-container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (2).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/laptop.jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (3).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (4).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (5).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (6).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="shop-now">
+                            تسوق الآن
+                        </a>
+                    </div>
+                    <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                        <div class="products-container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (2).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/laptop.jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (3).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (4).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (5).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (6).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="shop-now">
+                            تسوق الآن
+                        </a>
+                    </div>
+                    <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
+                        <div class="products-container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (2).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/laptop.jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (3).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (4).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (5).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (6).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="shop-now">
+                            تسوق الآن
+                        </a>
+                    </div>
+                    <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">
+                        <div class="products-container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (2).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/laptop.jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (3).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (4).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (5).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                                    <div class="product-item">
+                                        <div class="pro-img">
+                                            <img src="images/item1 (6).jpg" alt="">
+                                            <form action="">
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in" />
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </form>
+                                            <div class="overlay-details">
+                                                <a href="" data-toggle="modal" data-target="#product-details">
+                                                    <i class="far fa-eye"></i>
+                                                    تفاصيل المنتج
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pro-info">
+                                            <a href="product.html">
+                                                <h4>مجموعه حقائب </h4>
+                                            </a>
+                                            <p>
+                                                شنطة ظهر بسوستة وجيب جانبي شبكي ونقشة حروف للاطفال من ريبوك Core Graphic
+                                                - اسود
+
+                                            </p>
+                                            <div class="price">
+                                                <span>1000 IQD</span>
+                                            </div>
+                                            <a href="#" class="add-cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                        <span class="offer-span">
+                                            عرض خاص
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="shop-now">
+                            تسوق الآن
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end cats-tabs -->
+    </div>
+    <!-- end warper -->
+    <!-- top-footer -->
+    <section class="top-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <h5>احنا دايما موجودين في خدمتك</h5>
+                        <span>تواصل معانا عبر:</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="mailto:help.myhouse.com">
+                            <div class="icon">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>مركز المساعدة</span>
+                                <span>help.myhouse.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="mailto:help.myhouse.com">
+                            <div class="icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>مركز الدعم</span>
+                                <span>help.myhouse.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="tel:123456789">
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>الدعم ع التلفون</span>
+                                <span>123456789</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end top-footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="footer d-flex justify-content-between">
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-app d-flex justify-content-around align-items-center">
+                <div class="app">
+                    <span>حمل تطبيق بيتي الآن</span>
+                    <div class="download d-flex">
+                        <div class="android">
+                            <a href="#">
+                                <img src="images/android.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="apple">
+                            <a href="#">
+                                <img src="images/appstore.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="socail">
+                    <span>تواصل معانا</span>
+                    <ul class="d-flex">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- bottom-footer -->
+    <div class="bottom-footer d-flex justify-content-between align-items-center">
+        <div class="copy-right">
+            <span>©2019 لشركة دقة الانجاز للتسويق الألكتروني. جميع الحقوق محفوظة.</span>
+        </div>
+        <ul class="d-flex">
+            <li><img src="images/mastercard.png" alt=""></li>
+            <li><img src="images/mastercard.png" alt=""></li>
+            <li><img src="images/mastercard.png" alt=""></li>
+        </ul>
+        <div class="footer-menu">
+            <ul class="d-flex">
+                <li><a href="#">الوظائف</a></li>
+                <li><a href="#">سياسة الضمان</a></li>
+                <li><a href="#">البيع معانا</a></li>
+                <li><a href="#">شروط الاستخدام</a></li>
+                <li><a href="#">شروط البيع</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end bottom-footer -->
+    <!-- fixed-footer -->
+    <div class="fixed-footer">
+        <ul>
+            <li>
+                <a href="index.html" class="active">
+                    <i class="fa fa-home"></i>
+                    <span>الرئيسية</span>
+                </a>
+            </li>
+            <li>
+                <a href="fav.html">
+                    <i class="fa fa-heart"></i>
+                    <span>المفضلة</span>
+                </a>
+            </li>
+            <li>
+                <a href="account.html">
+                    <i class="fa fa-user"></i>
+                    <span>حسابي</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/gb.png">
+                    <span>English</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- end fixed-footer -->
+    <!-- add-rate -->
+    <div class="modal fade product-details" id="product-details" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">تفاصيل المنتج</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="product-page">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-6 col-12">
+                                    <div class="pro-silder">
+                                        <div class="swiper-container gallery-top">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                            </div>
+                                            <!-- Add Arrows -->
+                                            <div class="swiper-button-next swiper-button-white"></div>
+                                            <div class="swiper-button-prev swiper-button-white"></div>
+                                        </div>
+                                        <div class="swiper-container gallery-thumbs">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="prod-details">
+                                        <a class="brand" href="#">آبل</a>
+                                        <p class="info">
+                                            موبايل آيفون 11 برو ماكس مع تطبيق فيس تايم - لون رمادي فلكي - سعة 256
+                                            جيجابايت -
+                                            يدعم
+                                            تقنية 4G LTE - مواصفات سعودية
+                                        </p>
+                                        <div class="rate d-flex align-items-center">
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                            <span class="gray">
+                                                (250) تقيما
+                                            </span>
+                                        </div>
+                                        <div class="priceRow">
+                                            <div class=" pdpPrice">
+                                                <p class="before">
+                                                    <span class=" heading">
+                                                        قبل الخصم:
+                                                    </span>
+                                                    <span class=" value">
+                                                        <span class=" preReductionPrice">
+                                                            <span class="value">1799.00</span>
+                                                            <span class="currency null">دينار</span>
+                                                        </span>
+                                                    </span>
+                                                </p>
+                                                <p class="after">
+                                                    <span class=" heading">
+                                                        بعد الخصم:
+                                                    </span>
+                                                    <span class=" value">
+                                                        <span class=" sellingPriceContainer">
+                                                            <span class=" sellingPrice">
+                                                                <span>
+                                                                    <span class="value">999.00</span>
+                                                                    <span class="currency null">دينار</span>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </p>
+                                                <p>
+                                                    <span class=" heading">
+                                                        وفّرت :
+                                                    </span>
+                                                    <span class=" value">
+                                                        <span class=" savingsRow">
+                                                            <span class=" savingsPrice">
+                                                                <span>
+                                                                    <span class="value">800.00</span>
+                                                                    <span class="currency null">دينار</span>
+                                                                </span>
+                                                            </span>
+                                                            <span class="discountTag">
+                                                                <span class="value yellow">خصم 44٪</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <form action="">
+                                            <div class="option">
+                                                <div class="option-item">
+                                                    <h6 class="fw-title">اللون :</h6>
+                                                    <div class="fw-color-choose">
+                                                        <div class="cs-item">
+                                                            <input type="radio" name="cs" id="gray-color">
+                                                            <label class="cs-gray" for="gray-color"></label>
+                                                        </div>
+                                                        <div class="cs-item">
+                                                            <input type="radio" name="cs" id="orange-color">
+                                                            <label class="cs-orange" for="orange-color"></label>
+                                                        </div>
+                                                        <div class="cs-item">
+                                                            <input type="radio" name="cs" id="yollow-color">
+                                                            <label class="cs-yollow" for="yollow-color"></label>
+                                                        </div>
+                                                        <div class="cs-item">
+                                                            <input type="radio" name="cs" id="green-color">
+                                                            <label class="cs-green" for="green-color"></label>
+                                                        </div>
+                                                        <div class="cs-item">
+                                                            <input type="radio" name="cs" id="purple-color">
+                                                            <label class="cs-purple" for="purple-color"></label>
+                                                        </div>
+                                                        <div class="cs-item">
+                                                            <input type="radio" name="cs" id="blue-color" checked="">
+                                                            <label class="cs-blue" for="blue-color"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="option-item">
+                                                    <h6 class="fw-title">الحجم :</h6>
+                                                    <div class="fw-size-choose">
+                                                        <div class="sc-item">
+                                                            <input type="radio" name="sc" id="64 غيغابايت">
+                                                            <label for="64 غيغابايت">64 غيغابايت</label>
+                                                        </div>
+                                                        <div class="sc-item">
+                                                            <input type="radio" name="sc" id="256 غيغابايت">
+                                                            <label for="256 غيغابايت">256 غيغابايت</label>
+                                                        </div>
+                                                        <div class="sc-item">
+                                                            <input type="radio" name="sc" id=">512 غيغابايت" checked="">
+                                                            <label for=">512 غيغابايت">512 غيغابايت</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="amount">
+                                                <div class="select-amount">
+                                                    <label for="">الكمية</label>
+                                                    <select name="" id="">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                    </select>
+                                                </div>
+                                                <button type="submit" class="btn-cart">
+                                                    اضافة الى عربة التسوق
+                                                </button>
+                                                <label for="fav" class="fav-checkbox">
+                                                    <input type="checkbox" class="fav-in">
+                                                    <i class="fas fa-heart fav"></i>
+                                                </label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-12 after-border">
+                                    <ul class="seller-info">
+                                        <li>
+                                            <i class="fas fa-award yellow"></i>
+                                            <span>
+                                                ضمان لمدة عامين
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-sync yellow"></i>
+                                            <span>
+                                                رجاع بسهولة لكل المنتجات في هذا العرض.
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-store yellow"></i>
+                                            <span>
+                                                <span class="seller"> البائع :</span>
+                                                <span> احمد</span>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="shipp-info">
+                                        <li>
+                                            <i class="fas fa-truck yellow"></i>
+                                            <div>
+                                                <span> شحن موثوق به</span>
+                                                <span>شحن مجاني عند الشراء بـ 200ر.س. أو أكثر</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-sync yellow"></i>
+                                            <div>
+                                                <span> إرجاع سهل</span>
+                                                <span>إرجاع مجاني على المنتجات التي يمكن إرجاعها لتتسوق براحة</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-shield-alt yellow"></i>
+                                            <div>
+                                                <span>تسوق آمن</span>
+                                                <span>بياناتك محمية دائماً</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12">
+                                    <div class="more">
+                                        <a href="product.html" class="pro-details">
+                                            المزيد من التفاضيل
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

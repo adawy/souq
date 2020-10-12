@@ -1,0 +1,96 @@
+body {
+    text-align: left;
+    direction: ltr;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.user-content .user-detail,
+.visa-form .form-group label {
+    left: 20px;
+    right: unset;
+}
+
+img.user-bg {
+    left: unset;
+    right: 0;
+}
+
+.visa-form .form-group i,
+.pro-info .add-cart {
+    left: unset;
+    right: 10px;
+}
+
+.logo-search .form-group button {
+    left: unset;
+    right: 15px;
+}
+
+.logo-search .login-cart li:nth-of-type(3)::after {
+    left: 0;
+    right: unset;
+}
+
+.top-header .lang li:not(:last-of-type)::after,
+.top-header .head-offer li:not(:last-of-type)::after {
+    right: 0;
+    left: unset;
+}
+
+.top-header .lang li:last-of-type {
+    padding-right: unset;
+    padding-left: 10px;
+}
+
+.mobile-links ul li a i {
+    transform: rotate(180deg);
+}
+
+.pro-info {
+    text-align: left;
+}
+
+.promo-code-form button {
+    right: 24px;
+    left: unset;
+}
+
+.promo-code-form input {
+    padding-right: unset;
+    padding-left: 24px;
+}
+.category-menu li div{
+    padding: 12px 20px 5px 0;
+}
+.cat-head .dropdown{
+    margin-right: unset;
+    margin-left: 10px;
+}
+.i-change .dropdown-item{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.fav-page .product-item .fa-times{
+    left: unset;
+    right: 10px;
+}
+.fw-color-choose .cs-item:first-child{
+    margin-right: 14px;
+}
+.seller-info li i,
+.shipp-info li i{
+    margin-left: unset;
+    margin-right: 5px;
+}
+.slider .swiper-button-prev, .pro-silder .swiper-button-prev, .prod-slider .swiper-button-prev{
+    right: 0;
+    left: unset;
+}
+.pro-look ul{
+    padding-right: unset;
+    padding-left: 20px;
+}

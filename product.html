@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>souq</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- loader -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- backToTop -->
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+    <!-- end backToTop -->
+    <div class="search-over justify-content-center"></div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- top-header -->
+        <div class="top-header ">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <ul class="head-offer d-flex">
+                    <li>
+                        <i class="fas fa-truck"></i>
+                        <span>
+                            الشحن مجاني
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-sync"></i>
+                        <span>
+                            إرجاع مجاني بكل سهولة
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>
+                            الدفع عند الاستلام
+                        </span>
+                    </li>
+                </ul>
+                <ul class="lang d-flex align-items-center">
+                    <li>
+                        <a href="sign-up.html">انشاء حساب</a>
+                    </li>
+                    <li>
+                        <a href="#">صفقة اليوم</a>
+                    </li>
+                    <li>
+                        <a href="#">خدمة العملاء</a>
+                    </li>
+                    <li>
+                        <a href="#">تتبع مشترياتك</a>
+                    </li>
+                    <li>
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/flag2.jpg" alt="egypt">
+                            </a>
+                            <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label>شحن الى</label>
+                                        <select name="" id="" class="form-control">
+                                            <option value="1">العراق</option>
+                                            <option value="1">مصر</option>
+                                            <option value="1">الامارات</option>
+                                        </select>
+                                    </div>
+                                    <label for="">اللغة</label>
+                                    <div class="form-group">
+                                        <input type="radio" id="en" name="radio">
+                                        <label class="bold-none" for="en">English</label>
+                                        <input type="radio" id="ar" name="radio">
+                                        <label class="bold-none" for="ar">عربي</label>
+                                    </div>
+                                    <button class="btn btn-primary">حفظ ومتابعة</button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end top-header -->
+        <div class="container-fluid">
+            <!-- logo-search -->
+            <div class="logo-search d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <i class="fas fa-bars"></i> <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+ <form action="cat-search.html">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="أبحث عن ما تريد من هنا ....">
+                        <button type="submit" class="search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="login-cart d-flex align-items-center">
+                    <li class="sign-up-drop">
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>
+                                    تسجيل الدخول أو الاشتراك
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <div class="sgin-in">
+                                    <p class="blue">انضم الى بيتي</p>
+                                    <a class="dropdown-item" href="login.html">
+                                        تسجيل الدخول
+                                    </a>
+                                </div>
+                                <div class="sgin-up">
+                                    <p class="gray">ليس لديك حساب؟ </p>
+                                    <a class="dropdown-item blue" href="sign-up.html">
+                                        اشتراك
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-search"></i>
+                    </li>
+                    <li>
+                        <a href="cart.html">
+                            <span>عربة التسويق</span>
+                            <i class="fas fa-shopping-cart cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end logo-search -->
+        </div>
+        <!-- nav -->
+        <nav>
+            <ul class="exo-menu">
+                <li><a class="active" href="cats.html">كل الفئات</a></li>
+                <li class="mega-drop-down">
+                    <a href="cats.html">الإلكترونيات</a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h4 class="mega-title">فئات المنتجات</h4>
+                                    <ul class="links">
+                                        <li><a href="cat-search.html">تلفزيونات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                                        <li><a href="cat-search.html">كاميرات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الصوت</a></li>
+                                        <li><a href="cat-search.html">مستلزمات الكمبيوتر</a></li>
+                                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="mega-title">أفضل الماركات</h4>
+                                    <ul class="stander">
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description d-flex">
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mega-drop-down">
+                    <a href="cats.html">الإلكترونيات</a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-wrap">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h4 class="mega-title">فئات المنتجات</h4>
+                                    <ul class="links">
+                                        <li><a href="cat-search.html">تلفزيونات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                                        <li><a href="cat-search.html">كاميرات</a></li>
+                                        <li><a href="cat-search.html">أجهزة الصوت</a></li>
+                                        <li><a href="cat-search.html">مستلزمات الكمبيوتر</a></li>
+                                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="mega-title">أفضل الماركات</h4>
+                                    <ul class="stander">
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                        <li><a href="cat-search.html"><img src="images/samsung.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="description d-flex">
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                        <div class="image">
+                                            <a href="cats.html">
+                                                <img src="images/tops.png" alt="">
+                                                <span> اجهزة الكترونية</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+        <!-- mobile-nav -->
+        <div class="mobile-nav">
+            <div class="bg-white m-b-10">
+                <div class="mobile-title">
+                    <div class="logo d-flex  align-items-center">
+                        <i class="fas fa-times"></i><a href="index.html">
+                            <img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <ul class="mobile-menu d-flex justify-content-around align-items-center">
+                    <li>
+                        <a href="index.html">
+                            <i class="far fa-home"></i>
+                            <span>الرئيسية</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.html">
+                            <i class="far fa-user"></i>
+                            <span>تسجيل الدخول</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sign-up.html">
+                            <i class="far fa-user"></i>
+                            <span>أشتراك</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-links bg-white m-b-10">
+                <span>كل الفئات</span>
+                <ul>
+                    <li>
+                        <div class="dropdown show">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>الالكترونيات</span>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <ul>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                    <li>
+                                        <a href="cat-search.html">لابتوب</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cats.html">
+                            <span>الالكترونيات</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end mobile-nav -->
+    </header>
+    <!-- end header -->
+    <!-- warper -->
+    <div class="warper">
+        <div class="product-page">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <div class="pro-silder">
+                            <div class="swiper-container gallery-top">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                </div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next swiper-button-white"></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                            <div class="swiper-container gallery-thumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="prod-details">
+                            <a class="brand" href="#">آبل</a>
+                            <p class="info">
+                                موبايل آيفون 11 برو ماكس مع تطبيق فيس تايم - لون رمادي فلكي - سعة 256 جيجابايت - يدعم
+                                تقنية 4G LTE - مواصفات سعودية
+                            </p>
+                            <div class="rate d-flex align-items-center">
+                                <ul class="d-flex">
+                                    <li><i class="fas fa-star yellow"></i></li>
+                                    <li><i class="fas fa-star yellow"></i></li>
+                                    <li><i class="fas fa-star yellow"></i></li>
+                                    <li><i class="fas fa-star yellow"></i></li>
+                                    <li><i class="fas fa-star gray"></i></li>
+                                </ul>
+                                <span class="gray">
+                                    (250) تقيما
+                                </span>
+                            </div>
+                            <div class="priceRow">
+                                <div class=" pdpPrice">
+                                    <p class="before">
+                                        <span class=" heading">
+                                            قبل الخصم:
+                                        </span>
+                                        <span class=" value">
+                                            <span class=" preReductionPrice">
+                                                <span class="value">1799.00</span>
+                                                <span class="currency null">دينار</span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="after">
+                                        <span class=" heading">
+                                            بعد الخصم:
+                                        </span>
+                                        <span class=" value">
+                                            <span class=" sellingPriceContainer">
+                                                <span class=" sellingPrice">
+                                                    <span>
+                                                        <span class="value">999.00</span>
+                                                        <span class="currency null">دينار</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class=" heading">
+                                            وفّرت :
+                                        </span>
+                                        <span class=" value">
+                                            <span class=" savingsRow">
+                                                <span class=" savingsPrice">
+                                                    <span>
+                                                        <span class="value">800.00</span>
+                                                        <span class="currency null">دينار</span>
+                                                    </span>
+                                                </span>
+                                                <span class="discountTag">
+                                                    <span class="value yellow">خصم 44٪</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <form action="">
+                                <div class="option">
+                                    <div class="option-item">
+                                        <h6 class="fw-title">اللون :</h6>
+                                        <div class="fw-color-choose">
+                                            <div class="cs-item">
+                                                <input type="radio" name="cs" id="gray-color">
+                                                <label class="cs-gray" for="gray-color"></label>
+                                            </div>
+                                            <div class="cs-item">
+                                                <input type="radio" name="cs" id="orange-color">
+                                                <label class="cs-orange" for="orange-color"></label>
+                                            </div>
+                                            <div class="cs-item">
+                                                <input type="radio" name="cs" id="yollow-color">
+                                                <label class="cs-yollow" for="yollow-color"></label>
+                                            </div>
+                                            <div class="cs-item">
+                                                <input type="radio" name="cs" id="green-color">
+                                                <label class="cs-green" for="green-color"></label>
+                                            </div>
+                                            <div class="cs-item">
+                                                <input type="radio" name="cs" id="purple-color">
+                                                <label class="cs-purple" for="purple-color"></label>
+                                            </div>
+                                            <div class="cs-item">
+                                                <input type="radio" name="cs" id="blue-color" checked="">
+                                                <label class="cs-blue" for="blue-color"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="option-item">
+                                        <h6 class="fw-title">الحجم :</h6>
+                                        <div class="fw-size-choose">
+                                            <div class="sc-item">
+                                                <input type="radio" name="sc" id="64 غيغابايت">
+                                                <label for="64 غيغابايت">64 غيغابايت</label>
+                                            </div>
+                                            <div class="sc-item">
+                                                <input type="radio" name="sc" id="256 غيغابايت">
+                                                <label for="256 غيغابايت">256 غيغابايت</label>
+                                            </div>
+                                            <div class="sc-item">
+                                                <input type="radio" name="sc" id=">512 غيغابايت" checked="">
+                                                <label for=">512 غيغابايت">512 غيغابايت</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="amount">
+                                    <div class="select-amount">
+                                        <label for="">الكمية</label>
+                                        <select name="" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn-cart">
+                                        اضافة الى عربة التسوق
+                                    </button>
+                                    <label for="fav" class="fav-checkbox">
+                                        <input type="checkbox" class="fav-in">
+                                        <i class="fas fa-heart fav"></i>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12 after-border">
+                        <ul class="seller-info">
+                            <li>
+                                <i class="fas fa-award yellow"></i>
+                                <span>
+                                    ضمان لمدة عامين
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fas fa-sync yellow"></i>
+                                <span>
+                                    رجاع بسهولة لكل المنتجات في هذا العرض.
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fas fa-store yellow"></i>
+                                <span>
+                                    <span class="seller"> البائع :</span>
+                                    <span> احمد</span>
+                                </span>
+                            </li>
+                        </ul>
+                        <ul class="shipp-info">
+                            <li>
+                                <i class="fas fa-truck yellow"></i>
+                                <div>
+                                    <span> شحن موثوق به</span>
+                                    <span>شحن مجاني عند الشراء بـ 200ر.س. أو أكثر</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-sync yellow"></i>
+                                <div>
+                                    <span> إرجاع سهل</span>
+                                    <span>إرجاع مجاني على المنتجات التي يمكن إرجاعها لتتسوق براحة</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-shield-alt yellow"></i>
+                                <div>
+                                    <span>تسوق آمن</span>
+                                    <span>بياناتك محمية دائماً</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab"
+                                    aria-controls="one" aria-selected="true">نظرة عامة</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab"
+                                    aria-controls="two" aria-selected="false">المواصفات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab"
+                                    aria-controls="three" aria-selected="false">التقيم</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane pro-look fade show active" id="one" role="tabpanel"
+                                aria-labelledby="one-tab">
+                                <h5>الميزات الأساسية</h5>
+                                <ul>
+                                    <li>نظام التشغيل iOS 13 يضمن سهولة الاستخدام بالإضافة إلى ضبط الهاتف وفقاً لرغبة
+                                        المستخدم
+                                    </li>
+                                    <li>يتميز بكاميرا خلفية ثلاثية بفلاش LED تساعد في التقاط صور خالية من العيوب حتى في
+                                        ظروف الإضاءة المنخفضة
+                                    </li>
+                                    <li>الهاتف مزوَّد بخاصية التحقق بالتعرف على الوجه (Face ID) الأكثر أماناً في الهواتف
+                                        الذكية، ويتميز الهاتف بسرعة أعلى واستخدام أسهل بمعدل ثلاثين بالمائة بفضل الأداء
+                                        المحسَّن في أماكن المختلفة ودعم مدى أكثر
+                                    </li>
+                                    <li>Comes with Face ID, the most secure facial authentication in a smartphone</li>
+                                </ul>
+                                <h5>نظرة عامة</h5>
+                                <p>
+                                    A new dual‑camera system captures more of what you see and love. The fastest chip
+                                    ever in a smartphone and all‑day battery life let you do more and charge less. And
+                                    the highest‑quality video in a smartphone, so your memories look better than ever.
+                                    Take your photos from wide to ultrawide. A redesigned interface uses the new
+                                    Ultrawide camera to show you what’s happening outside the frame — and lets you
+                                    capture it. Shoot and edit videos as easily as you do photos. It’s the world’s most
+                                    popular camera, now with a whole new perspective. iPhone 11 shoots beautifully sharp
+                                    4K video at 60 fps across all its cameras. The Ultrawide camera captures four times
+                                    more scene, so it’s perfect for action shots like your dog catching a frisbee. If
+                                    you’re recording a performance — say, your kid’s piano recital — when you zoom in,
+                                    the audio zooms too. And now you can edit videos as easily as you do photos.
+                                    Shooting in low light doesn’t have to be a shot in the dark. Night mode is a new
+                                    feature that turns on automatically for low‑light photos
+                                </p>
+                                <img class="img-fluid" src="images/11.jpg" alt="">
+                                <img class="img-fluid" src="images/22.jpg" alt="">
+                                <img class="img-fluid" src="images/33.jpg" alt="">
+                                <img class="img-fluid" src="images/44.jpg" alt="">
+                                <img class="img-fluid" src="images/55.jpg" alt="">
+                                <img class="img-fluid" src="images/66.jpg" alt="">
+                                <img class="img-fluid" src="images/77.jpg" alt="">
+                                <img class="img-fluid" src="images/88.jpg" alt="">
+                                <img class="img-fluid" src="images/99.jpg" alt="">
+                                <img class="img-fluid" src="images/10.jpg" alt="">
+                            </div>
+                            <div class="tab-pane pro-option fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                                <h5>مواصفات</h5>
+                                <div class="d-flex w-100 table-container">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tr>
+                                                <td>
+                                                    اسم اللون
+                                                </td>
+                                                <td>
+                                                    Midnight Green
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    نظام التشغيل
+                                                </td>
+                                                <td>
+                                                    IOS
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    نظام التشغيل
+                                                </td>
+                                                <td>
+                                                    IOS
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    حجم الشاشة
+                                                </td>
+                                                <td>
+                                                    6.5 بوصة
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    الذاكرة الداخلية
+                                                </td>
+                                                <td>
+                                                    256 غيغابايت
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    عدد شريحة Sim
+                                                </td>
+                                                <td>
+                                                    شريحة هاتف
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    رقم الموديل
+                                                </td>
+                                                <td>
+                                                    MWHM2AH/A
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tr>
+                                                <td>
+                                                    اسم اللون
+                                                </td>
+                                                <td>
+                                                    Midnight Green
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    نظام التشغيل
+                                                </td>
+                                                <td>
+                                                    IOS
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    نظام التشغيل
+                                                </td>
+                                                <td>
+                                                    IOS
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    حجم الشاشة
+                                                </td>
+                                                <td>
+                                                    6.5 بوصة
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    الذاكرة الداخلية
+                                                </td>
+                                                <td>
+                                                    256 غيغابايت
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    عدد شريحة Sim
+                                                </td>
+                                                <td>
+                                                    شريحة هاتف
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    رقم الموديل
+                                                </td>
+                                                <td>
+                                                    MWHM2AH/A
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade rating-div" id="three" role="tabpanel"
+                                aria-labelledby="three-tab">
+                                <div class="genral-rate text-center">
+                                    <p>التصنيف العام</p>
+                                    <p>
+                                        <span class="yellow">4.5</span>
+                                        <ul class="d-flex justify-content-center">
+                                            <li><i class="fas fa-star yellow"></i></li>
+                                            <li><i class="fas fa-star yellow"></i></li>
+                                            <li><i class="fas fa-star yellow"></i></li>
+                                            <li><i class="fas fa-star yellow"></i></li>
+                                            <li><i class="fas fa-star gray"></i></li>
+                                        </ul>
+                                    </p>
+                                    <p>استنادا إلى 4372 تقييم</p>
+                                    <a href="#" class="add-rate yellow" data-toggle="modal" data-target="#add-rate">
+                                        اضف تعليقك
+                                    </a>
+                                </div>
+                                <div class="rate-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name d-flex">
+                                            <span>محمد احمد</span>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                        </div>
+                                        <span class="date">
+                                            20/01/2019
+                                        </span>
+                                    </div>
+                                    <p>
+                                        قُمتُ بالترقية من آيفون 7 بلاس وهناك فرق كبير أحب هذا الهاتف استغرقني بعض الوقت
+                                        لأعتاد عليه ولكني تعلّمت العديد من الميزات اللطيفة
+                                    </p>
+                                </div>
+                                <div class="rate-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name d-flex">
+                                            <span>محمد احمد</span>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                        </div>
+                                        <span class="date">
+                                            20/01/2019
+                                        </span>
+                                    </div>
+                                    <p>
+                                        قُمتُ بالترقية من آيفون 7 بلاس وهناك فرق كبير أحب هذا الهاتف استغرقني بعض الوقت
+                                        لأعتاد عليه ولكني تعلّمت العديد من الميزات اللطيفة
+                                    </p>
+                                </div>
+                                <div class="rate-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name d-flex">
+                                            <span>محمد احمد</span>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                        </div>
+                                        <span class="date">
+                                            20/01/2019
+                                        </span>
+                                    </div>
+                                    <p>
+                                        قُمتُ بالترقية من آيفون 7 بلاس وهناك فرق كبير أحب هذا الهاتف استغرقني بعض الوقت
+                                        لأعتاد عليه ولكني تعلّمت العديد من الميزات اللطيفة
+                                    </p>
+                                </div>
+                                <div class="rate-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name d-flex">
+                                            <span>محمد احمد</span>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                        </div>
+                                        <span class="date">
+                                            20/01/2019
+                                        </span>
+                                    </div>
+                                    <p>
+                                        قُمتُ بالترقية من آيفون 7 بلاس وهناك فرق كبير أحب هذا الهاتف استغرقني بعض الوقت
+                                        لأعتاد عليه ولكني تعلّمت العديد من الميزات اللطيفة
+                                    </p>
+                                </div>
+                                <div class="rate-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name d-flex">
+                                            <span>محمد احمد</span>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                        </div>
+                                        <span class="date">
+                                            20/01/2019
+                                        </span>
+                                    </div>
+                                    <p>
+                                        قُمتُ بالترقية من آيفون 7 بلاس وهناك فرق كبير أحب هذا الهاتف استغرقني بعض الوقت
+                                        لأعتاد عليه ولكني تعلّمت العديد من الميزات اللطيفة
+                                    </p>
+                                </div>
+                                <div class="rate-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name d-flex">
+                                            <span>محمد احمد</span>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                        </div>
+                                        <span class="date">
+                                            20/01/2019
+                                        </span>
+                                    </div>
+                                    <p>
+                                        قُمتُ بالترقية من آيفون 7 بلاس وهناك فرق كبير أحب هذا الهاتف استغرقني بعض الوقت
+                                        لأعتاد عليه ولكني تعلّمت العديد من الميزات اللطيفة
+                                    </p>
+                                </div>
+                                <div class="rate-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name d-flex">
+                                            <span>محمد احمد</span>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                        </div>
+                                        <span class="date">
+                                            20/01/2019
+                                        </span>
+                                    </div>
+                                    <p>
+                                        قُمتُ بالترقية من آيفون 7 بلاس وهناك فرق كبير أحب هذا الهاتف استغرقني بعض الوقت
+                                        لأعتاد عليه ولكني تعلّمت العديد من الميزات اللطيفة
+                                    </p>
+                                </div>
+                                <div class="rate-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name d-flex">
+                                            <span>محمد احمد</span>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star yellow"></i></li>
+                                                <li><i class="fas fa-star gray"></i></li>
+                                            </ul>
+                                        </div>
+                                        <span class="date">
+                                            20/01/2019
+                                        </span>
+                                    </div>
+                                    <p>
+                                        قُمتُ بالترقية من آيفون 7 بلاس وهناك فرق كبير أحب هذا الهاتف استغرقني بعض الوقت
+                                        لأعتاد عليه ولكني تعلّمت العديد من الميزات اللطيفة
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end warper -->
+    <!-- top-footer -->
+    <section class="top-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <h5>احنا دايما موجودين في خدمتك</h5>
+                        <span>تواصل معانا عبر:</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="mailto:help.myhouse.com">
+                            <div class="icon">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>مركز المساعدة</span>
+                                <span>help.myhouse.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="mailto:help.myhouse.com">
+                            <div class="icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>مركز الدعم</span>
+                                <span>help.myhouse.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-item">
+                        <a href="tel:123456789">
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span>الدعم ع التلفون</span>
+                                <span>123456789</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end top-footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="footer d-flex justify-content-between">
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>الإلكترونيات</h4>
+                    <ul>
+                        <li><a href="cat-search.html">الهواتف المتحركة</a></li>
+                        <li><a href="cat-search.html">أجهزة التابلت</a></li>
+                        <li><a href="cat-search.html">أجهزة الكمبيوتر المحمولة</a></li>
+                        <li><a href="cat-search.html">الأجهزة المنزلية</a></li>
+                        <li><a href="cat-search.html">الكاميرات والصور وتسجيل الفيديو</a></li>
+                        <li><a href="cat-search.html">التلفزيونات</a></li>
+                        <li><a href="cat-search.html">سماعات الرأس</a></li>
+                        <li><a href="cat-search.html">ألعاب الفيديو</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-app d-flex justify-content-around align-items-center">
+                <div class="app">
+                    <span>حمل تطبيق بيتي الآن</span>
+                    <div class="download d-flex">
+                        <div class="android">
+                            <a href="#">
+                                <img src="images/android.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="apple">
+                            <a href="#">
+                                <img src="images/appstore.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="socail">
+                    <span>تواصل معانا</span>
+                    <ul class="d-flex">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- bottom-footer -->
+    <div class="bottom-footer d-flex justify-content-between align-items-center">
+        <div class="copy-right">
+            <span>©2019 لشركة دقة الانجاز للتسويق الألكتروني. جميع الحقوق محفوظة.</span>
+        </div>
+        <ul class="d-flex">
+            <li><img src="images/mastercard.png" alt=""></li>
+            <li><img src="images/mastercard.png" alt=""></li>
+            <li><img src="images/mastercard.png" alt=""></li>
+        </ul>
+        <div class="footer-menu">
+            <ul class="d-flex">
+                <li><a href="#">الوظائف</a></li>
+                <li><a href="#">سياسة الضمان</a></li>
+                <li><a href="#">البيع معانا</a></li>
+                <li><a href="#">شروط الاستخدام</a></li>
+                <li><a href="#">شروط البيع</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end bottom-footer -->
+    <!-- fixed-footer -->
+    <div class="fixed-footer">
+        <ul>
+            <li>
+                <a href="index.html" class="active">
+                    <i class="fa fa-home"></i>
+                    <span>الرئيسية</span>
+                </a>
+            </li>
+            <li>
+                <a href="fav.html">
+                    <i class="fa fa-heart"></i>
+                    <span>المفضلة</span>
+                </a>
+            </li>
+            <li>
+                <a href="account.html">
+                    <i class="fa fa-user"></i>
+                    <span>حسابي</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images/gb.png">
+                    <span>English</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- end fixed-footer -->
+    <!-- add-rate -->
+    <div class="modal fade add-ratemodal" id="add-rate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">أضف تعليقك</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="star-rating">
+                            <input type="radio" id="5-stars" name="rating" value="5" />
+                            <label for="5-stars" class="star">&#9733;</label>
+                            <input type="radio" id="4-stars" name="rating" value="4" />
+                            <label for="4-stars" class="star">&#9733;</label>
+                            <input type="radio" id="3-stars" name="rating" value="3" />
+                            <label for="3-stars" class="star">&#9733;</label>
+                            <input type="radio" id="2-stars" name="rating" value="2" />
+                            <label for="2-stars" class="star">&#9733;</label>
+                            <input type="radio" id="1-star" name="rating" value="1" />
+                            <label for="1-star" class="star">&#9733;</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="تعليقك" name="" id="" cols="30"
+                                rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-cart"  data-dismiss="modal">
+                            تعليق
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
